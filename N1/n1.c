@@ -6,9 +6,9 @@ int main() {
     char opcao = 's';
     char nome[20] = "thaina"; 
   
-    printf("Idade: %d\n", idade);
-    printf("Altura: %.2f\n", altura);
-    printf("Opcao: %c\n", opcao);
-    printf("Nome: %s\n", nome);
+    printf("Digite o seu nome");
+    scanf("%s",nome);
+    printf("Seu nome: %s\n",nome);
 
     return 0;
+}
